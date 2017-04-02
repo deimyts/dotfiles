@@ -1,0 +1,23 @@
+[user]
+	name = Cameron Jones
+	email = deimyts@gmail.com
+[credential]
+	helper = osxkeychain
+[core]
+	editor = vim
+	excludesfile = /Users/cameron_jones/.gitignore_global
+[push]
+	default = simple
+	followTags = true
+[alias]
+	co = checkout
+	br = branch
+	st = status
+	last = log -1 HEAD
+	unstage = reset HEAD --
+	ci = commit
+	cm = commit
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = true
