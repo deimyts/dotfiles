@@ -1,0 +1,3 @@
+setopt AUTO_CD
+setopt extended_glob
+unsetopt CASE_GLOB
