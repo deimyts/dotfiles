@@ -1,5 +1,8 @@
 export DOTFILES="$HOME/repos/dotfiles"
 
+# Required for TMUX
+export TERM="xterm-256color"
+
 # zsh options
 source "$DOTFILES/zsh/imports/options"
 
