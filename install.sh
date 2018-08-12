@@ -9,9 +9,13 @@ DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 # -f: If the target file already exists, then unlink it so that the link may occur.
 # -v: verbose: show files as they are processed.
 
+
 ln -sfv "$DOTFILES_DIR/git/.gitconfig" ~
 ln -sfv "$DOTFILES_DIR/git/.gitignore_global" ~
-ln -sfv "$DOTFILES_DIR/zsh/.zshrc" ~
 ln -sfv "$DOTFILES_DIR/tmux/.tmux.conf" ~
-ln -sfv "$DOTFILES_DIR/vim/.vimrc" ~
+# ln -sfv "$DOTFILES_DIR/vim/.vimrc" ~
+mkdir -p ~/.config/nvim;
+ln -sfv "$DOTFILES_DIR/vim/.vimrc" ~/.config/nvim/init.vim;
 
+chsh -s $(which zsh);
+ln -sfv "$DOTFILES_DIR/zsh/.zshrc" ~
