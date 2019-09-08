@@ -30,3 +30,7 @@ git clone https://github.com/bhilburn/powerlevel9k.git ~/repos/powerlevel9k
 # tmux
 mkdir -p ~/.tmux/plugins
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
+# vim
+mkdir -p ~/.vim/bundle
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
