@@ -1,4 +1,4 @@
-source "$HOME/repos/powerlevel9k/powerlevel9k.zsh-theme"
+source "$PLUGINS/powerlevel9k/powerlevel9k.zsh-theme"
 
 # custom options
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true

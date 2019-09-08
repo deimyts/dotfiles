@@ -5,7 +5,7 @@ export DOTFILES_DIR
 DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 # create a directory for get repos
-mkdir ~/repos
+mkdir $PLUGINS
 
 # Symlink dotfiles into home directory
 # -s: Create a symlink instead of a new file.
@@ -25,7 +25,7 @@ ln -sfv "$DOTFILES_DIR/zsh/.zshrc" ~
 
 # Install plugin repos
 # zsh
-git clone https://github.com/bhilburn/powerlevel9k.git ~/repos/powerlevel9k
+git clone https://github.com/bhilburn/powerlevel9k.git $PLUGINS/powerlevel9k
 
 # tmux
 mkdir -p ~/.tmux/plugins

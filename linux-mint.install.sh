@@ -14,8 +14,8 @@ export NVM_DIR="$HOME/.nvm";
 nvm install node;
 
 #setup powerlevel9k and install fonts
-git clone https://github.com/bhilburn/powerlevel9k.git ~/repos/powerlevel9k;
-echo 'source  ~/repos/powerlevel9k/powerlevel9k.zsh-theme' >> ~/.zshrc
+git clone https://github.com/bhilburn/powerlevel9k.git $PLUGINS/powerlevel9k;
+echo 'source  $PLUGINS/powerlevel9k/powerlevel9k.zsh-theme' >> ~/.zshrc
 
 wget https://github.com/powerline/powerline/raw/develop/font/PowerlineSymbols.otf
 wget https://github.com/powerline/powerline/raw/develop/font/10-powerline-symbols.conf
