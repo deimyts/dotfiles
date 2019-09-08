@@ -1,5 +1,6 @@
 export XDG_CONFIG_HOME="$HOME/.config"
 export DOTFILES="$XDG_CONFIG_HOME/dotfiles"
+export PLUGINS="$HOME/lib"
 
 # Required for TMUX
 export TERM="screen-256color"
