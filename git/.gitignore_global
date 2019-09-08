@@ -29,5 +29,7 @@ Thumbs.db
 
 # Editor genearted files #
 ##########################
+*.swn
+*.swo
 *.swp
 Session.vim
