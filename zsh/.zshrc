@@ -1,9 +1,7 @@
-export XDG_CONFIG_HOME="$HOME/.config"
-export DOTFILES="$XDG_CONFIG_HOME/dotfiles"
-export PLUGINS="$HOME/lib"
+# environment variables
+export XDG_CONFIG_HOME=${XDG_CONFIG_HOME-$HOME/.config}
 
-# Required for TMUX
-export TERM="screen-256color"
+source "$XDG_CONFIG_HOME/env"
 
 # zsh options
 source "$DOTFILES/zsh/imports/options"
