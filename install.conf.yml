@@ -1,0 +1,2 @@
+- shell:
+  - echo "TEST: install with dotbot"
