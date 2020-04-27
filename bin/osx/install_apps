@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+if command -v brew >/dev/null 2>&1; then
+  echo Homebrew already installed.
+else
+  echo Homebrew not installed. Installing it now;
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"; 
+fi
