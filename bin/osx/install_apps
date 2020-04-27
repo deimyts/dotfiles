@@ -6,3 +6,9 @@ else
   echo Homebrew not installed. Installing it now;
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"; 
 fi
+
+brew update;
+
+APP_DIR=~/Applications;
+
+brew cask install --appdir=$APP_DIR visual-studio-code;
