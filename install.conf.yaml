@@ -5,3 +5,6 @@
     ~/.gitignore_global: configs/git/.gitignore_global
     ~/.vimrc: configs/vim/.vimrc
     ~/.zshrc: configs/zsh/.zshrc
+
+- create:
+    - ~/src
