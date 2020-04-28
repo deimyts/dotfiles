@@ -1,6 +1,11 @@
 - defaults:
     link:
-        relink: true
+      relink: true
+    shell:
+      stdin: true
+      stdout: true
+      stderr: true
+      quiet: false
 
 - clean: ['~']
 
@@ -9,7 +14,15 @@
     ~/.gitconfig: configs/git/.gitconfig
     ~/.gitignore_global: configs/git/.gitignore_global
     ~/.vimrc: configs/vim/.vimrc
+    ~/.bash_profile: configs/bash/bash_profile
     ~/.zshrc: configs/zsh/.zshrc
 
 - create:
+    - ~/.config
     - ~/src
+
+- shell:
+    - defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
+    - 
+      command: ./bin/install_nvm
+      description: "Installing nvm"

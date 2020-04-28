@@ -12,3 +12,4 @@ brew update;
 APP_DIR=~/Applications;
 
 brew cask install --appdir=$APP_DIR visual-studio-code;
+brew cask install --appdir=$APP_DIR rectangle; # window manager (https://github.com/rxhanson/Rectangle)
