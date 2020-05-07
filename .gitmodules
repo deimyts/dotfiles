@@ -2,3 +2,6 @@
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot
 	ignore = dirty
+[submodule "lib/grsmto-dotfiles"]
+	path = lib/grsmto-dotfiles
+	url = https://github.com/Grsmto/dotfiles.git
