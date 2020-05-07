@@ -19,7 +19,7 @@
     ~/.gitconfig: configs/git/.gitconfig
     ~/.gitignore_global: configs/git/.gitignore_global
     ~/.vimrc: configs/vim/.vimrc
-    ~/.bash_profile: configs/bash/bash_profile
+    ~/.profile: configs/profile
     ~/.zshrc: configs/zsh/.zshrc
     ~/bin/ssh-manager: bin/ssh-manager
 
