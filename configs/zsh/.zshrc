@@ -1,6 +1,9 @@
 # environment variables
 export XDG_CONFIG_HOME=${XDG_CONFIG_HOME-$HOME/.config}
 
+# update PATH
+path+=$HOME/bin
+
 source "$XDG_CONFIG_HOME/env"
 
 # zsh options
