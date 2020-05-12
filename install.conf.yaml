@@ -34,7 +34,10 @@
 
     ~/bin/ssh-manager: bin/ssh-manager
 
-# - shell:
-#     - 
-#       command: ./bin/install_nvm
-#       description: "Installing nvm"
+- shell:
+    -
+      command: chsh -s /bin/zsh
+      description: "Set zsh as default shell"
+    # - 
+    #   command: ./bin/install_nvm
+    #   description: "Installing nvm"
