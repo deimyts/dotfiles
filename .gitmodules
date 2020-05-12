@@ -5,3 +5,6 @@
 [submodule "lib/grsmto-dotfiles"]
 	path = lib/grsmto-dotfiles
 	url = https://github.com/Grsmto/dotfiles.git
+[submodule "lib/zsh/powerlevel10k"]
+	path = lib/zsh/powerlevel10k
+	url = https://github.com/romkatv/powerlevel10k.git
