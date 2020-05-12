@@ -11,6 +11,8 @@
 
 - create:
     - ~/.config
+    - ~/.config/zsh
+    - ~/.config/zsh/etc
     - ~/src
     - ~/bin
 
@@ -24,10 +26,15 @@
     ~/.zshenv: configs/zsh/zshenv-base
     ~/.config/zsh/.zshenv: configs/zsh/zshenv
     ~/.config/zsh/.zshrc: configs/zsh/zshrc
-    
+    ~/.config/zsh/aliases: configs/zsh/aliases
+    ~/.config/zsh/etc/nvm: configs/zsh/nvm
+    # TODO: replace with PL10k
+    # TODO: plugin installation
+    # ~/.config/zsh/etc/powerlevel9k: configs/zsh/powerlevel9k
+
     ~/bin/ssh-manager: bin/ssh-manager
 
-- shell:
-    - 
-      command: ./bin/install_nvm
-      description: "Installing nvm"
+# - shell:
+#     - 
+#       command: ./bin/install_nvm
+#       description: "Installing nvm"

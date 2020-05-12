@@ -7,7 +7,7 @@ unsetopt CASE_GLOB
 source "$ZDOTDIR/etc/nvm"
 
 # PowerLevel9k theme
-source "$ZDOTDIR/etc/powerlevel9k"
+# source "$ZDOTDIR/etc/powerlevel9k"
 
 # aliases
-source "$ZDOTDIR/zsh/imports/aliases"
+source "$ZDOTDIR/aliases"
