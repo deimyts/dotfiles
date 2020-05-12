@@ -1,9 +1,0 @@
-# source zshrc
-alias srz="source ~/.zshrc"
-
-# Always list hidden files when using ls
-alias ls='ls -a'
-
-# Open a file with photoshop
-alias photoshop='open -a "Adobe Photoshop CC 2017"'
-alias ps='photoshop'

@@ -4,10 +4,10 @@ setopt extended_glob
 unsetopt CASE_GLOB
 
 # NVM
-source "$DOTFILES/zsh/imports/nvm"
+source "$ZDOTDIR/etc/nvm"
 
 # PowerLevel9k theme
-source "$DOTFILES/zsh/imports/powerlevel9k"
+source "$ZDOTDIR/etc/powerlevel9k"
 
 # aliases
-source "$DOTFILES/zsh/imports/aliases"
+source "$ZDOTDIR/zsh/imports/aliases"

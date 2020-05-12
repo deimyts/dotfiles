@@ -1,0 +1,5 @@
+# source zshrc
+alias srz="source ~/.zshrc"
+
+# Always list hidden files when using ls
+alias ls='ls -a'
