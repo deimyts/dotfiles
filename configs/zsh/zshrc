@@ -3,11 +3,14 @@ setopt AUTO_CD
 setopt extended_glob
 unsetopt CASE_GLOB
 
-# NVM
-source "$ZDOTDIR/etc/nvm"
-
 # PowerLevel9k theme
 # source "$ZDOTDIR/etc/powerlevel9k"
 
 # aliases
 source "$ZDOTDIR/aliases"
+
+# local settings
+source ~/.profile_local
+
+# NVM
+source "$ZDOTDIR/etc/nvm"
