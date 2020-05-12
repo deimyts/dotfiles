@@ -1,0 +1,13 @@
+# zsh options
+setopt AUTO_CD
+setopt extended_glob
+unsetopt CASE_GLOB
+
+# NVM
+source "$DOTFILES/zsh/imports/nvm"
+
+# PowerLevel9k theme
+source "$DOTFILES/zsh/imports/powerlevel9k"
+
+# aliases
+source "$DOTFILES/zsh/imports/aliases"

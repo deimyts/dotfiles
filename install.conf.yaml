@@ -20,7 +20,11 @@
     ~/.gitignore_global: configs/git/.gitignore_global
     ~/.vimrc: configs/vim/.vimrc
     ~/.profile: configs/profile
-    ~/.zshrc: configs/zsh/.zshrc
+
+    ~/.zshenv: configs/zsh/zshenv-base
+    ~/.config/zsh/.zshenv: configs/zsh/zshenv
+    ~/.config/zsh/.zshrc: configs/zsh/zshrc
+    
     ~/bin/ssh-manager: bin/ssh-manager
 
 - shell:
