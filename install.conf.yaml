@@ -10,12 +10,13 @@
 - clean: ['~']
 
 - create:
+    - ~/src
+    - ~/bin
     - ~/.config
+
     - ~/.config/zsh
     - ~/.config/zsh/etc
     - ~/.config/alacritty
-    - ~/src
-    - ~/bin
 
 - link:
     ~/dotfiles: ''
@@ -30,7 +31,6 @@
     ~/.config/zsh/aliases: configs/zsh/aliases
     ~/.config/zsh/etc/nvm: configs/zsh/nvm
     
-    # TODO: replace with PL10k
     # TODO: plugin installation
     ~/.config/zsh/etc/powerlevel10k: configs/zsh/powerlevel10k
     ~/.config/zsh/lib: lib/zsh
