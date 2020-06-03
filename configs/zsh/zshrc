@@ -4,7 +4,7 @@ setopt extended_glob
 unsetopt CASE_GLOB
 
 # PowerLevel9k theme
-# source "$ZDOTDIR/etc/powerlevel9k"
+source "$ZDOTDIR/etc/powerlevel10k"
 
 # aliases
 source "$ZDOTDIR/aliases"

@@ -32,16 +32,17 @@
     
     # TODO: replace with PL10k
     # TODO: plugin installation
-    # ~/.config/zsh/etc/powerlevel9k: configs/zsh/powerlevel9k
+    ~/.config/zsh/etc/powerlevel10k: configs/zsh/powerlevel10k
+    ~/.config/zsh/lib: lib/zsh
 
     ~/.config/alacritty/alacritty.yml: configs/alacritty/alacritty.yml
 
     ~/bin/ssh-manager: bin/ssh-manager
 
-- shell:
-    -
-      command: chsh -s /bin/zsh
-      description: "Set zsh as default shell"
+# - shell:
+#     -
+#       command: chsh -s /bin/zsh
+#       description: "Set zsh as default shell"
     # - 
     #   command: ./bin/install_nvm
     #   description: "Installing nvm"
