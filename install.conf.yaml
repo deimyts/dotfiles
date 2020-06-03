@@ -17,6 +17,7 @@
     - ~/.config/zsh
     - ~/.config/zsh/etc
     - ~/.config/alacritty
+    - ~/.config/tmux
 
 - link:
     ~/dotfiles: ''
@@ -30,6 +31,8 @@
     ~/.config/zsh/.zshrc: configs/zsh/zshrc
     ~/.config/zsh/aliases: configs/zsh/aliases
     ~/.config/zsh/etc/nvm: configs/zsh/nvm
+
+    ~/.config/tmux/.tmux.conf: configs/tmux/tmux.conf
     
     # TODO: plugin installation
     ~/.config/zsh/etc/powerlevel10k: configs/zsh/powerlevel10k
