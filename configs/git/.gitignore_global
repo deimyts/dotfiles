@@ -29,7 +29,12 @@ Thumbs.db
 
 # Editor genearted files #
 ##########################
+
+# vim
 *.swn
 *.swo
 *.swp
 Session.vim
+
+# vscode
+*.code-workspace
