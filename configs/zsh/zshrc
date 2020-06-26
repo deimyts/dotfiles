@@ -9,6 +9,14 @@ source "$ZDOTDIR/etc/powerlevel10k"
 # enable git completions
 autoload -Uz compinit && compinit
 
+# make completions case-insensitive
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
+
+# better history completions (only complete with matching commands)
+# '\e[A' = up arrow, '\e[B' = down arrow
+bindkey '\e[A' history-beginning-search-backward
+bindkey '\e[B' history-beginning-search-forward
+
 # aliases
 source "$ZDOTDIR/aliases"
 
