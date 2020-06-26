@@ -6,6 +6,9 @@ unsetopt CASE_GLOB
 # PowerLevel9k theme
 source "$ZDOTDIR/etc/powerlevel10k"
 
+# enable git completions
+autoload -Uz compinit && compinit
+
 # aliases
 source "$ZDOTDIR/aliases"
 
