@@ -18,6 +18,7 @@
     - ~/.config/zsh/etc
     - ~/.config/alacritty
     - ~/.config/tmux
+    - ~/.config/nvim
 
 - link:
     ~/dotfiles: ''
@@ -33,6 +34,8 @@
     ~/.config/zsh/etc/nvm: configs/zsh/nvm
 
     ~/.config/tmux/.tmux.conf: configs/tmux/tmux.conf
+
+    ~/.config/nvim/init.vim: configs/neovim/init.vim
     
     # TODO: plugin installation
     ~/.config/zsh/etc/powerlevel10k: configs/zsh/powerlevel10k
