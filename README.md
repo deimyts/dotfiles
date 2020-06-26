@@ -1,5 +1,11 @@
 Cameron's dotfiles
 
+## Install
+Run the install script:
+```
+$ ./install
+```
+
 ## SSH Setup
 Uses the `ssh-manager` script from Adrien Denat's [dotfiles](https://github.com/Grsmto/dotfiles). 
 
