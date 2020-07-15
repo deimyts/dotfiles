@@ -23,27 +23,27 @@
 
 - link:
     ~/dotfiles: ''
-    ~/.gitconfig: configs/git/.gitconfig
-    ~/.gitignore_global: configs/git/.gitignore_global
-    ~/.vimrc: configs/vim/.vimrc
-    ~/.profile: configs/profile
+    ~/.gitconfig: config/git/.gitconfig
+    ~/.gitignore_global: config/git/.gitignore_global
+    ~/.vimrc: config/vim/.vimrc
+    ~/.profile: config/profile
 
-    ~/.zshenv: configs/zsh/zshenv-base
-    ~/.config/zsh/.zshenv: configs/zsh/zshenv
-    ~/.config/zsh/.zshrc: configs/zsh/zshrc
-    ~/.config/zsh/aliases: configs/zsh/aliases
-    ~/.config/zsh/etc/nvm: configs/zsh/nvm
+    ~/.zshenv: config/zsh/zshenv-base
+    ~/.config/zsh/.zshenv: config/zsh/zshenv
+    ~/.config/zsh/.zshrc: config/zsh/zshrc
+    ~/.config/zsh/aliases: config/zsh/aliases
+    ~/.config/zsh/etc/nvm: config/zsh/nvm
 
-    ~/.config/tmux/.tmux.conf: configs/tmux/tmux.conf
+    ~/.config/tmux/.tmux.conf: config/tmux/tmux.conf
     ~/.config/tmux/lib/tpm: lib/tmux/tpm
 
-    ~/.config/nvim/init.vim: configs/neovim/init.vim
+    ~/.config/nvim/init.vim: config/neovim/init.vim
     
     # TODO: plugin installation
-    ~/.config/zsh/etc/powerlevel10k: configs/zsh/powerlevel10k
+    ~/.config/zsh/etc/powerlevel10k: config/zsh/powerlevel10k
     ~/.config/zsh/lib: lib/zsh
 
-    ~/.config/alacritty/alacritty.yml: configs/alacritty/alacritty.yml
+    ~/.config/alacritty/alacritty.yml: config/alacritty/alacritty.yml
 
     ~/bin/ssh-manager: bin/ssh-manager
 
