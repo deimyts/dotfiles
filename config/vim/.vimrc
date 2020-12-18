@@ -53,7 +53,6 @@ filetype plugin indent on    " required by Vundle
 " Colors
 " set t_Co=256 " use 256 colors
 set background=dark
-colorscheme PaperColor
 
 " Spaces and Tabs
 set tabstop=2       " number of visual spaces per TAB
