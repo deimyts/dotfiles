@@ -20,6 +20,7 @@
     - ~/.config/tmux
     - ~/.config/tmux/lib
     - ~/.config/nvim
+    - ~/.local/share/nvim/site/autoload
 
 - link:
     ~/dotfiles: ''
@@ -38,7 +39,8 @@
     ~/.config/tmux/lib/tpm: lib/tmux/tpm
 
     ~/.config/nvim/init.vim: config/neovim/init.vim
-    
+    ~/.local/share/nvim/site/autoload/plug.vim: lib/vim-plug/plug.vim
+
     # TODO: plugin installation
     ~/.config/zsh/etc/powerlevel10k: config/zsh/powerlevel10k
     ~/.config/zsh/lib: lib/zsh

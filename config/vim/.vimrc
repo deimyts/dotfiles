@@ -4,42 +4,49 @@ if !exists("g:syntax_on")
     syntax enable
 endif
 
-set nocompatible " required by Vundle
-filetype off " required by Vundle
+
+" set nocompatible " required by Vundle
+" filetype off " required by Vundle
 
 " set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin('~/.vim/bundle/vundle-plugins')
+"set rtp+=~/.vim/bundle/Vundle.vim
+"call vundle#begin('~/.vim/bundle/vundle-plugins')
 
 " let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
+"Plugin 'VundleVim/Vundle.vim'
 
-" Vue JS
-Plugin 'posva/vim-vue'
-Plugin 'sheerun/vim-polyglot'
-Plugin 'ctrlp.vim'
-Plugin 'christoomey/vim-tmux-navigator'
-Plugin 'NLKNguyen/papercolor-theme'
-Plugin 'pangloss/vim-javascript'
-Plugin 'vim-airline/vim-airline'
+" Initialize vim-plug
+" call plug#begin(stdpath('data') . '/plugged')
+" 
+" " Vue JS
+" Plug 'posva/vim-vue'
+" Plug 'sheerun/vim-polyglot'
+" Plug 'ctrlp.vim'
+" Plug 'christoomey/vim-tmux-navigator'
+" Plug 'NLKNguyen/papercolor-theme'
+" Plug 'pangloss/vim-javascript'
+" Plug 'vim-airline/vim-airline'
+" 
+" " UltiSnips
+" Plug 'SirVer/ultisnips'
+" 
+" " Snippets are separated from the engine. Add this if you want them:
+" Plug 'honza/vim-snippets'
+" Plug 'joaohkfaria/vim-jest-snippets'
+" 
+" " Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
+" let g:UltiSnipsExpandTrigger="<tab>"
+" let g:UltiSnipsJumpForwardTrigger="<c-]>"
+" let g:UltiSnipsJumpBackwardTrigger="<c-[>"
+" 
+" " If you want :UltiSnipsEdit to split your window.
+" let g:UltiSnipsEditSplit="vertical"
+" 
+" " All of your Plugins must be added before the following line
+" " call vundle#end()            " required
+" 
+" call plug#end()
 
-" UltiSnips
-Plugin 'SirVer/ultisnips'
-
-" Snippets are separated from the engine. Add this if you want them:
-Plugin 'honza/vim-snippets'
-Plugin 'joaohkfaria/vim-jest-snippets'
-
-" Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
-let g:UltiSnipsExpandTrigger="<tab>"
-let g:UltiSnipsJumpForwardTrigger="<c-]>"
-let g:UltiSnipsJumpBackwardTrigger="<c-[>"
-
-" If you want :UltiSnipsEdit to split your window.
-let g:UltiSnipsEditSplit="vertical"
-
-" All of your Plugins must be added before the following line
-call vundle#end()            " required
 " load filetype-specific indent files
 filetype plugin indent on    " required by Vundle
 
