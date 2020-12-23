@@ -44,6 +44,7 @@
 
     # TODO: plugin installation
     ~/.config/zsh/etc/powerlevel10k: config/zsh/powerlevel10k
+    ~/.config/zsh/.p10k.zsh: config/zsh/p10k.zsh
     ~/.config/zsh/lib: lib/zsh
 
     ~/.config/alacritty/alacritty.yml: config/alacritty/alacritty.yml
