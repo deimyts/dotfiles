@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+if [ -n "`$SHELL -c 'echo $ZSH_VERSION'`" ]; then
+  echo "zsh is already set as your default shell."
+elif [ -n "`$SHELL -c 'echo $BASH_VERSION'`" ]; then
+  chsh -s /bin/zsh
+fi

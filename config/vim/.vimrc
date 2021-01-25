@@ -4,7 +4,6 @@ if !exists("g:syntax_on")
     syntax enable
 endif
 
-
 " set nocompatible " required by Vundle
 " filetype off " required by Vundle
 
@@ -159,4 +158,8 @@ let g:airline#extensions#tabline#enabled = 1
 nmap <leader>t :echo "Hi there!"<CR>
 
 " VimDiff Settings
+
+" set a more reasonable colorscheme until neovim is installed & configured
+" may want to move this somewhere else later
+colorscheme zellner
 

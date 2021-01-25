@@ -40,6 +40,8 @@
     ~/.config/tmux/lib/tpm: lib/tmux/tpm
 
     ~/.config/nvim/init.vim: config/neovim/init.vim
+
+    # does not work when run prior to installing nvim (not surprising)
     ~/.config/nvim/autoload/plug.vim: lib/vim-plug/plug.vim
 
     # TODO: plugin installation
@@ -51,10 +53,10 @@
 
     ~/bin/ssh-manager: bin/ssh-manager
 
-# - shell:
-#     -
-#       command: chsh -s /bin/zsh
-#       description: "Set zsh as default shell"
+- shell:
+    -
+      command: ./bin/set_default_shell
+      description: "Set zsh as default shell"
     # - 
     #   command: ./bin/install_nvm
     #   description: "Installing nvm"

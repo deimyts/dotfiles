@@ -1,6 +1,10 @@
 Cameron's dotfiles
 
 ## Install
+```
+$ mkdir ~/src && git clone https://github.com/deimyts/dotfiles.git ~/src/dotfiles && cd ~/src/dotfiles
+```
+
 Run the install script:
 ```
 $ ./install
