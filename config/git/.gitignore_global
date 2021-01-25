@@ -14,7 +14,6 @@
 # Logs and databases #
 ######################
 *.log
-*.sql
 *.sqlite
 
 # OS generated files #
@@ -29,7 +28,12 @@ Thumbs.db
 
 # Editor genearted files #
 ##########################
+
+# vim
 *.swn
 *.swo
 *.swp
 Session.vim
+
+# vscode
+*.code-workspace

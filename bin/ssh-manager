@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+./lib/grsmto-dotfiles/bin/ssh-manager $@

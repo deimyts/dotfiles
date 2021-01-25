@@ -1,6 +1,3 @@
-[user]
-	name = Cameron Jones
-	email = deimyts@gmail.com
 [credential]
 	helper = osxkeychain
 [core]
@@ -21,3 +18,7 @@
 	tool = vimdiff
 [difftool]
 	prompt = true
+
+# Allow local customizations in the .gitconfig_local file
+[include]
+	path = ~/.gitconfig_local

@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../dotfiles-volusion"
+		},
+		{
+			"path": "../dotfiles-macOS"
+		}
+	],
+	"settings": {}
+}

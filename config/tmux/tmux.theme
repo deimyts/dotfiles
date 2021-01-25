@@ -1,0 +1,41 @@
+# tmux color scheme
+NEUTRAL_DARK="#2e3436"
+NEUTRAL_MID="#44475a"
+PURPLE_DARK="#282a36"
+PURPLE_DARK_2="#6272a4"
+
+BLUE_DARK="#06989a"
+BLUE_LIGHT="#00FBFB"
+BLUE_DESATURATED="#f8f8f2"
+BLUE_LIGHT_2="#8be9fd"
+BLUE_LIGHT_DESATURATED="#7BE6D6"
+
+PINK="#ff79c6"
+PURPLE="#bd93f9"
+
+# Pane Borders
+set -g pane-border-style fg="$BLUE_DARK"
+set -g pane-active-border-style fg="$BLUE_LIGHT"
+
+# Status Bar
+ set -g status-style bg="$BLUE_DARK",fg="$BLUE_LIGHT_DESATURATED"
+# set -g status-style bg="#06989a",fg="#fce94f"
+
+# set -g status-left "[#S] "
+# set -g status-left-style default
+
+# set -g status-left "#[bg=$BLUE_DESATURATED]#[fg=$PURPLE_DARK]#{?client_prefix,#[bg=$PINK],} ☺ "
+# set -g status-left "#[bg=$NEUTRAL_MID]#[fg=$PINK] #{?window_zoomed_flag, Z , o }"
+set -g status-left "[#S]"
+set -ga status-left "#[bg=$NEUTRAL_LIGHT]#[fg=$PURPLE_DARK]#{?client_prefix,#[bg=$PINK],} ☺ "
+
+# window status
+WINDOW_STATUS_TEXT=" #I:#W "
+set-window-option -g window-status-style fg="$BLUE_LIGHT",bg=default
+set-window-option -g window-status-current-style fg="$PINK",bg="$PURPLE_DARK"
+set -g window-status-current-format "#[bg=$BLUE_LIGHT]#[fg=$BLUE_DARK] $WINDOW_STATUS_TEXT"
+set -g window-status-format "$WINDOW_STATUS_TEXT"
+
+# status right
+set -g status-right "#[fg=$BLUE_LIGHT_DESATURATED,bg=$PURPLE_DARK] %a %H:%M:%S #[fg=$PURPLE_DARK_2]%Y-%m-%d "
+

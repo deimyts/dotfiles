@@ -1,0 +1,16 @@
+[submodule "dotbot"]
+	path = dotbot
+	url = https://github.com/anishathalye/dotbot
+	ignore = dirty
+[submodule "lib/grsmto-dotfiles"]
+	path = lib/grsmto-dotfiles
+	url = https://github.com/Grsmto/dotfiles.git
+[submodule "lib/zsh/powerlevel10k"]
+	path = lib/zsh/powerlevel10k
+	url = https://github.com/romkatv/powerlevel10k.git
+[submodule "lib/tmux/tpm"]
+	path = lib/tmux/tpm
+	url = https://github.com/tmux-plugins/tpm.git
+[submodule "lib/vim-plug"]
+	path = lib/vim-plug
+	url = https://github.com/junegunn/vim-plug.git
