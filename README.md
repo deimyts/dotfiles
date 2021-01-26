@@ -31,14 +31,14 @@ In tmux, install plugins with:
 <prefix> + I
 ```
 
-## SSH Setup
+### SSH Setup
 Uses the `ssh-manager` script from Adrien Denat's [dotfiles](https://github.com/Grsmto/dotfiles). 
 
 1. `./bin/ssh-manager new`
 2. `eval "$(ssh-agent -s)"`
 3. `ssh-add <path-to-new-key>`
 
-## Plugins & Submodules
+## Managing Plugins & Submodules
 
 ### Add new submodule
 ```sh
