@@ -17,6 +17,20 @@ git submodule update --init --recursive
 $ ./install
 ```
 
+## Additional Setup
+
+### Neovim Plugins
+Run this command in neovim to install the plugins:
+```
+:PlugInstall
+```
+
+### Tmux Plugins
+In tmux, install plugins with:
+```
+<prefix> + I
+```
+
 ## SSH Setup
 Uses the `ssh-manager` script from Adrien Denat's [dotfiles](https://github.com/Grsmto/dotfiles). 
 

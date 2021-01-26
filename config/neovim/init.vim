@@ -11,4 +11,5 @@ Plug 'NLKNguyen/papercolor-theme'
 
 call plug#end()
 
+set background=dark
 colorscheme PaperColor

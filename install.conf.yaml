@@ -20,6 +20,7 @@
     - ~/.config/tmux
     - ~/.config/tmux/lib
     - ~/.config/nvim
+    - ~/.config/nvim/autoload
     - ~/.local/share/nvim/site/autoload
 
 - link:
