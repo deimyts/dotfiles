@@ -1,11 +1,18 @@
 Cameron's dotfiles
 
-## Install
+## Install & Setup
+
+1. Clone Repo
 ```
 $ mkdir ~/src && git clone https://github.com/deimyts/dotfiles.git ~/src/dotfiles && cd ~/src/dotfiles
 ```
 
-Run the install script:
+2. Install Submodules:
+```
+git submodule update --init --recursive
+```
+
+3. Run the install script:
 ```
 $ ./install
 ```

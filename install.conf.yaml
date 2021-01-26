@@ -57,6 +57,12 @@
     -
       command: ./bin/set_default_shell
       description: "Set zsh as default shell"
+
+    # Install fonts (currently specific to macOs)
+    -
+      command: cp lib/fonts/* ~/Library/Fonts
+      description: "Installing Fonts"
+
     # - 
     #   command: ./bin/install_nvm
     #   description: "Installing nvm"
