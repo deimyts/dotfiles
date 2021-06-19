@@ -28,7 +28,11 @@ bindkey '\e[B' history-beginning-search-forward
 source "$ZDOTDIR/aliases"
 
 # local settings
-# source ~/.profile_local
+source ~/.profile_local
+
+# if [ -f ~/.profile_local ]; then
+#     source ~/.profile_local
+# fi
 
 # NVM
 source "$ZDOTDIR/etc/nvm"

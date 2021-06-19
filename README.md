@@ -1,5 +1,8 @@
 Cameron's dotfiles
 
+## Prerequisites
+Run platform-specific dotfile installs before running this one, to ensure all apps & utilities are installed.
+
 ## Install & Setup
 
 1. Clone Repo
@@ -33,10 +36,22 @@ In tmux, install plugins with:
 
 ### SSH Setup
 Uses the `ssh-manager` script from Adrien Denat's [dotfiles](https://github.com/Grsmto/dotfiles). 
+(doesn't add key to keychain)
 
 1. `./bin/ssh-manager new`
 2. `eval "$(ssh-agent -s)"`
 3. `ssh-add <path-to-new-key>`
+
+### Node/NPM
+```
+nvm install <version>
+```
+
+### GPG Setup
+After installing everything...
+```
+gpg --full-generate-key
+```
 
 ## Managing Plugins & Submodules
 
