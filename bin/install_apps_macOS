@@ -23,10 +23,9 @@ brew tap homebrew/cask-versions
 
 APP_DIR=~/Applications;
 
-brew cask install --appdir=$APP_DIR \
+brew install --appdir=$APP_DIR \
   visual-studio-code \
   rectangle \
   firefox-developer-edition \
-  postman \
-  docker \
+  homebrew/cask/docker \
 ;
