@@ -10,6 +10,7 @@ Plug 'tpope/vim-commentary'
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'kevinoid/vim-jsonc'
+Plug 'lambdalisue/fern.vim'
 
 call plug#end()
 
@@ -29,3 +30,9 @@ call SetupCommandAbbrs('C', 'CocConfig')
 " coc-react-refactor
 xmap <leader>a  <Plug>(coc-codeaction-selected)
 nmap <leader>a  <Plug>(coc-codeaction-selected)
+
+" coc node path
+let g:coc_node_path = '~/.config/nvm/versions/node/v14.17.6/bin/node'
+
+" Fern
+map <F13> :Fern . -drawer -toggle<ENTER>
