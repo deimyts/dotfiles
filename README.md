@@ -38,13 +38,16 @@ In tmux, install plugins with:
 Uses the `ssh-manager` script from Adrien Denat's [dotfiles](https://github.com/Grsmto/dotfiles). 
 (doesn't add key to keychain)
 
-1. `./bin/ssh-manager new`
+`ssh-manager` should have been added to the ~/bin directory, and it should already be in your path.
+
+1. `ssh-manager new`
 2. `eval "$(ssh-agent -s)"`
 3. `ssh-add <path-to-new-key>`
 
 ### Node/NPM
 ```
-nvm install <version>
+1. `./bin/install_nvm`
+2. `nvm install <version>`
 ```
 
 ### GPG Setup
