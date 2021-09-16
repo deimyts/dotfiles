@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+
+if command -v brew >/dev/null 2>&1; then
+  echo Homebrew already installed.
+else
+  echo Homebrew not installed. Installing it now;
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"; 
+fi
+
+brew update;
+
+# For program information, use `brew info $NAME`
+brew install \
+  tmux \
+  nvim \
+  jq \
+  tree \
+  ranger \
+;
+
+# cask installs
+brew tap homebrew/cask-versions
+
+APP_DIR=~/Applications;
+
+brew cask install --appdir=$APP_DIR \
+  visual-studio-code \
+  rectangle \
+  firefox-developer-edition \
+  postman \
+  docker \
+;
