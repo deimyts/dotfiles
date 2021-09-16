@@ -29,3 +29,5 @@ brew install --appdir=$APP_DIR \
   firefox-developer-edition \
   homebrew/cask/docker \
 ;
+
+brew install --appdir=$APP_DIR --no-quarantine alacritty;
