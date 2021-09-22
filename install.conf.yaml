@@ -12,6 +12,7 @@
 - create:
     - ~/src
     - ~/bin
+    - ~/.ssh
     - ~/.config
 
     - ~/.config/zsh
@@ -53,6 +54,7 @@
     ~/.config/alacritty/alacritty.yml: config/alacritty/alacritty.yml
 
     ~/bin/ssh-manager: bin/ssh-manager
+    ~/.ssh/config: config/ssh_config
 
 - shell:
     -

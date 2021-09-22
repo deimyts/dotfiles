@@ -42,7 +42,7 @@ Uses the `ssh-manager` script from Adrien Denat's [dotfiles](https://github.com/
 
 1. `ssh-manager new`
 2. `eval "$(ssh-agent -s)"`
-3. `ssh-add <path-to-new-key>`
+3. `ssh-add <path-to-new-key>` (MacOS: `ssh-add -K <path-to-new-key>` to add the key to your keychain)
 
 ### Node/NPM
 ```
