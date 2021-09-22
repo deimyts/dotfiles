@@ -11,6 +11,8 @@
 	br = branch
 	st = status
 	last = log -1 HEAD
+	logf = log -p --name-only
+	diffs = diff --staged
 	unstage = reset HEAD --
 	ci = commit
 	cm = commit
