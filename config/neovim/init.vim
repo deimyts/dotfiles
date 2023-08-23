@@ -10,7 +10,7 @@ Plug 'tpope/vim-commentary'
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'kevinoid/vim-jsonc'
-Plug 'lambdalisue/fern.vim'
+Plug 'lambdalisue/fern.vim', {'branch': 'main'}
 Plug 'kien/ctrlp'
 
 call plug#end()
