@@ -33,7 +33,8 @@ xmap <leader>a  <Plug>(coc-codeaction-selected)
 nmap <leader>a  <Plug>(coc-codeaction-selected)
 
 " coc node path
-let g:coc_node_path = '~/.config/nvm/versions/node/v14.17.6/bin/node'
+" TODO: pull this from an env var
+let g:coc_node_path = '~/.config/nvm/versions/node/v18.15.0/bin/node'
 
 " Fern
 map <F13> :Fern . -drawer -toggle<ENTER>
