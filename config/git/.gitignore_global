@@ -28,6 +28,7 @@ Thumbs.db
 
 # Editor genearted files #
 ##########################
+.vscode
 
 # vim
 *.swn
