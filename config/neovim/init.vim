@@ -11,7 +11,7 @@ Plug 'NLKNguyen/papercolor-theme'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'kevinoid/vim-jsonc'
 Plug 'lambdalisue/fern.vim', {'branch': 'main'}
-Plug 'kien/ctrlp'
+Plug 'ctrlpvim/ctrlp.vim'
 
 call plug#end()
 
