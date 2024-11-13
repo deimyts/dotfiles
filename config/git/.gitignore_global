@@ -37,3 +37,7 @@ Session.vim
 
 # vscode
 *.code-workspace
+.vscode/
+
+# Other
+TODO.md
