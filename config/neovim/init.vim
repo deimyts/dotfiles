@@ -16,15 +16,6 @@ Plug 'svrana/neosolarized.nvim', {'branch': 'main'}
 
 call plug#end()
 
-lua << EOF
-  require('neosolarized').setup({
-    comment_italics = true,
-    background_set = false, -- set to "true" to override the underlying terminal bg color
-  })
-EOF
-
-colorscheme neosolarized
-
 "some more stuff?
 function! SetupCommandAbbrs(from, to)
   exec 'cnoreabbrev <expr> '.a:from
@@ -45,3 +36,14 @@ let g:coc_node_path = '~/.config/nvm/versions/node/v18.15.0/bin/node'
 
 " Fern
 map <F13> :Fern . -drawer -toggle<ENTER>
+
+" colorscheme setup
+" at the bottom because it messes with the highlighting
+lua << EOF
+  require('neosolarized').setup({
+    comment_italics = true,
+    background_set = false, -- set to "true" to override the underlying terminal bg color
+  })
+EOF
+
+colorscheme neosolarized
