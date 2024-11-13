@@ -19,7 +19,7 @@ call plug#end()
 lua << EOF
   require('neosolarized').setup({
     comment_italics = true,
-    background_set = true, -- set to "false" to use the underlying terminal bg color
+    background_set = false, -- set to "true" to override the underlying terminal bg color
   })
 EOF
 
