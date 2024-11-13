@@ -16,9 +16,19 @@ Plug 'svrana/neosolarized.nvim', {'branch': 'main'}
 
 call plug#end()
 
+
+" treesitter setup (broken)
+" cannot find nvim-treesitter-configs
+" lua << EOF
+"   require'nvim-treesitter-configs'.setup {
+"     ensure_installed = { "c", "lua", "vim", "vimdoc", "query", "markdown", "markdown_inline" }
+"   }
+" EOF
+
 " colorscheme setup
 " fix highlighting for lua embeds
 autocmd FileType vim lua vim.treesitter.start()
+" configure colorscheme
 lua << EOF
   require('neosolarized').setup({
     comment_italics = true,
