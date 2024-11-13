@@ -7,16 +7,23 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-commentary'
-Plug 'NLKNguyen/papercolor-theme'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'kevinoid/vim-jsonc'
 Plug 'lambdalisue/fern.vim', {'branch': 'main'}
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'tjdevries/colorbuddy.nvim'
+Plug 'svrana/neosolarized.nvim', {'branch': 'main'}
 
 call plug#end()
 
-set background=dark
-colorscheme PaperColor
+lua << EOF
+  require('neosolarized').setup({
+    comment_italics = true,
+    background_set = true, -- set to "false" to use the underlying terminal bg color
+  })
+EOF
+
+colorscheme neosolarized
 
 "some more stuff?
 function! SetupCommandAbbrs(from, to)
